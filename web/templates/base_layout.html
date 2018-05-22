@@ -31,86 +31,6 @@
 <body>
 {% block content %}{% endblock %}
 
-    <!--/footer-->
-    <section class="footer py-3">
-<div class="container">
-    <div class="row py-4 foot-resp">
-<div class="col-lg-8 bottom-nav-main">
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="services.html">Services</a>
-                </li>
-                <li>
-                    <a href="projects.html">Projects</a>
-                </li>
-                <li>
-                    <a href="services.html">Clients</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
-        <div class="col-lg-4  footer_social-icons">
-            <a class="facebook" href="#">
-                <span class="fab fa-facebook-f"></span>
-            </a>
-            <a class="twitter" href="#">
-                <span class="fab fa-twitter"></span>
-            </a>
-            <a class="pinterest" href="#">
-                <span class="fab fa-pinterest-p"></span>
-            </a>
-            <a class="linkedin" href="#">
-                <span class="fab fa-linkedin-in"></span>
-            </a>
-        </div>
-        </div>
-
- <div class="row py-3">
-    <div class="col-lg-4  footer_grid foot-resp ">
-        <h3>About Us</h3>
-        <p>Sagittis quis turpis vel, facilisis posuere erat. Nulla facilisi. Proin vel commodo leo. Ut mauris tortor, cursus ut massa vitae, iaculis vehicula turpis. Nam libero tempore cum vulputate id posuere erat.</p>
-    </div>
-    <div class="col-lg-4  footer_grid foot-resp">
-        <h3>Latest News</h3>
-        <ul class="footer_grid_list">
-            <li><i class="fas fa-angle-right" aria-hidden="true"></i>
-                <a href="#" data-toggle="modal" data-target="#myModal">Lorem ipsum neque vulputate </a>
-            </li>
-            <li><i class="fas fa-angle-right" aria-hidden="true"></i>
-                <a href="#" data-toggle="modal" data-target="#myModal">Dolor amet sed quam vitae</a>
-            </li>
-            <li><i class="fas fa-angle-right" aria-hidden="true"></i>
-                <a href="#" data-toggle="modal" data-target="#myModal">Lorem ipsum neque, vulputate </a>
-            </li>
-            <li><i class="fas fa-angle-right" aria-hidden="true"></i>
-                <a href="#" data-toggle="modal" data-target="#myModal">Dolor amet sed quam vitae</a>
-            </li>
-            <li><i class="fas fa-angle-right" aria-hidden="true"></i>
-                <a href="#" data-toggle="modal" data-target="#myModal">Lorem ipsum neque, vulputate </a>
-            </li>
-        </ul>
-    </div>
-    <div class="col-lg-4  footer_grid foot-resp">
-        <h3>Contact Info</h3>
-        <ul class="address">
-            <li><i class="fas fa-map-marker-alt" aria-hidden="true"></i>3241 USA, Collection building, <span>New York City.</span></li>
-            <li><i class="far fa-envelope-open" aria-hidden="true"></i><a href="mailto:info@example.com">info@example.com</a></li>
-            <li><i class="fas fa-phone" aria-hidden="true"></i>+0123 2279 3241</li>
-            <li><i class="fas fa-globe" aria-hidden="true"></i><a href="#">info@website.com</a></li>
-        </ul>
-    </div>
-   </div>
-        </div>
-    </section>
-        <!--//footer-->
-    <section class="copy-rights">
-        <p class="copyright">© 2018 Paradise Africa Expeditions. All Rights Reserved | Design by <a
-                href="https://weib.herokuapp.com/" target="_blank">weib solutions</a></p>
         <!--/footer-->
     <section class="footer py-3">
 	<div class="container">
@@ -118,19 +38,19 @@
         <div class="col-lg-8 bottom-nav-main">
             <ul>
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="i{% url 'home' %}">Home</a>
                 </li>
                 <li>
-                    <a href="services.html">Services</a>
+                    <a href="{% url 'services' %}">Services</a>
                 </li>
                 <li>
-                    <a href="projects.html">Projects</a>
+                    <a href="{% url 'profile' %}">Profile</a>
                 </li>
                 <li>
-                    <a href="services.html">Clients</a>
+                    <a href="{%  url 'blog' %}">Blog</a>
                 </li>
                 <li>
-                    <a href="contact.html">Contact</a>
+                    <a href="{% url 'contacts' %}">Contact</a>
                 </li>
             </ul>
         </div>
