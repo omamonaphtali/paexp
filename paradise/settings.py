@@ -25,7 +25,7 @@ SECRET_KEY = 'y8@xf8hv!k(s&mujm=wjrv=a!lw@v3%yf6p)jqrat6lwntl5db'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = ['localhost', 'paradiseexpeditionafrica.herokuapp.com']
 
 
 # Application definition
