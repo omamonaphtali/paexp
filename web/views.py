@@ -1,4 +1,4 @@
-from django.shortcuts import render_to_response
+from django.shortcuts import render_to_response, render
 
 # Create your views here.
 
@@ -13,6 +13,10 @@ def about(request):
 
 def services(request):
     return render_to_response('services.html')
+
+
+def rental(request):
+    return render('car_rental.html')
 
 
 def contact(request):

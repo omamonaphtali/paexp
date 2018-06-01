@@ -14,11 +14,13 @@
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
                         <div class="carousel-caption">
-                                <h1>We help business grow and innovate new Things </h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dignissim lacus, vel elementum quam. Donec facilisis aliquet sapien.</p>
-                                    <a href="#" data-toggle="modal" data-target="#myModal">Read More <i class="fa fa-caret-right" aria-hidden="true"></i></a>
-                                    <a href="contact.html">Contact Us <i class="fas fa-caret-right" aria-hidden="true"></i></a>
-
+                            <h1>We help business grow and innovate new Things </h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dignissim lacus, vel
+                                elementum quam. Donec facilisis aliquet sapien.</p>
+                                <a href="{% url 'profile' %}">Read More <i
+                                        class="fa fa-caret-right" aria-hidden="true"></i></a>
+                                <a href="{% url 'contacts' %}">Contact Us <i class="fas fa-caret-right"
+                                                                aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
@@ -110,67 +112,6 @@
             </div>
        </div>
     <!-- //Services -->
-		<!-- reservation -->
-	<div class="reservation-w3laits py-5">
-		<div class="container py-3 py-md-3">
-		<div class="w3-head-all text-center mb-3">
-					<h3>Appointment Form</h3>
-					</div>
-			<div class="agile-reservation row">
-			    <div class="col-lg-4 col-md-4 agile-reservation-grid">
-			        <img src="{% static 'images/r1.jpg' %}" alt=" " class="img-responsive img-style row2 img-fluid">
-			    </div>
-				 <div class="col-lg-4 col-md-4 agile-reservation-grid mid-w3l-aits">
-			  <div class="book-form">
-							<form action="#" method="post">
-								<div class="phone_email">
-									<label>Full Name : </label>
-									<div class="form-text">
-										<span class="fa fa-user" aria-hidden="true"></span>
-										<input type="text" name="Name" placeholder="Name" required="">
-									</div> 
-								</div>
-								<div class="phone_email">
-									<label>Phone Number : </label>
-									<div class="form-text">
-										<span class="fa fa-phone" aria-hidden="true"></span>
-										<input type="text" name="Phone no" placeholder="Phone no" required="">
-									</div> 
-								</div> 
-								<div class="clearfix"></div>
-								<div class="agileits_reservation_grid">
-									<div class="span1_of_1">
-										<label>Pick Date : </label> 
-										<div class="book_date"> 
-											<span class="fa fa-calendar" aria-hidden="true"></span>
-											<input class="date" id="datepicker" type="text" name="date" placeholder="mm/dd/yyyy" required="">
-										</div>					
-									</div>
-									<div class="span1_of_1">
-										<!-- start_section_room -->
-										<label>Pick Business : </label>
-										<div class="section_room">
-											<span class="fa fa-clock-o" aria-hidden="true"></span>
-											<select id="country" onchange="change_country(this.value)" class="frm-field required">
-												<option value="null">Corporate</option>
-												<option value="null">Land</option>         
-												<option value="AX">Business</option>
-											</select>
-										</div>	
-									</div>
-								</div> 
-								<input type="submit" value="Take appointment " />
-							</form>
-						</div>
-					
-			     </div>
-				  <div class="col-lg-4 col-md-4 agile-reservation-grid">
-			       <img src="{% static 'images/r2.jpg' %}" alt=" " class="img-responsive img-style row2 img-fluid">
-			    </div>
-			</div>
-		</div>
-   </div>
-<!-- //reservation -->
 		<!-- Team -->
     <div class="team py-5" id="team">
         <div class="w3-head-all text-center mb-3">

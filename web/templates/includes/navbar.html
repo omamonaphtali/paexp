@@ -10,10 +10,20 @@
                 <a class="nav-link" href="{% url 'home' %}">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="about/">About</a>
+                <a class="nav-link" href="{% url 'profile' %}">Profile</a>
+            </li>
+            <li class="dropdown nav-item">
+                <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true"
+                   aria-expanded="false">Services <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="{% url 'rental' %}">Car Rental</a></li>
+                    <li><a href="#">Air Ticketing</a></li>
+                    <li><a href="#">Safaris</a></li>
+                    <li><a href="#">Hotels & Lodges</a></li>
+                </ul>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{% url 'services' %}">Services</a>
+                <a class="nav-link" href="{% url 'gallery' %}">Gallery</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="{% url 'blog' %}">Blog</a>
