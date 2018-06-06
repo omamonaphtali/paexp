@@ -1,33 +1,23 @@
-"""paradise URL Configuration
-
-The `urlpatterns` list routes URLs to views. For more information please see:
-    https://docs.djangoproject.com/en/2.0/topics/http/urls/
-Examples:
-Function views
-    1. Add an import:  from my_app import views
-    2. Add a URL to urlpatterns:  path('', views.home, name='home')
-Class-based views
-    1. Add an import:  from other_app.views import Home
-    2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')
-Including another URLconf
-    1. Import the include() function: from django.urls import include, path
-    2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
-"""
 from django.conf.urls import url
-# from django.urls import path
-from django.conf.urls.static import static
-from django.conf import settings
 from . import views
+from django.conf import settings
+from django.conf.urls.static import static
+
+
+app_name = 'web'
+
 
 urlpatterns = [
-    url('', views.index, name='home'),
-    url('profile/', views.about, name='profile'),
-    url('services/', views.services, name='services'),
-    url('rental/', views.rental, name='rental'),
-    url('gallery/', views.gallery, name='gallery'),
-    url('contact/', views.contact, name='contacts'),
-    url('blog/', views.blog, name='blog'),
+    url(r'^$', views.index_view, name='home'),
+    url(r'^profile/', views.about_view, name='profile'),
+    url(r'^services/', views.services_view, name='services'),
+    url(r'^rental/', views.rental_view, name='rental'),
+    url(r'^gallery/', views.gallery_view, name='gallery'),
+    url(r'^contact/', views.contact_view, name='contacts'),
+    url(r'^blog/', views.blog_view, name='blog'),
+    url(r'^topography/', views.topography_view, name='topography'),
+    url(r'^projects/', views.projects_view, name='projects'),
 ]
 
 if settings.DEBUG:
-    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

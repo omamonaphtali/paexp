@@ -1,4 +1,5 @@
 {% load staticfiles %}
+{% load cloudinary %}
 <!DOCTYPE>
 <html lang="en">
 <head>
@@ -16,13 +17,13 @@
 			window.scrollTo(0, 1);
 		}
 	</script>
-	<link rel="stylesheet" href="{% static 'css/bootstrap.css' %}"> <!-- Bootstrap-Core-CSS -->
-	<link href="{% static 'css/style.css' %}" rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" href="{% static 'Web/css/bootstrap.css' %}"> <!-- Bootstrap-Core-CSS -->
+	<link href="{% static 'Web/css/style.css' %}" rel='stylesheet' type='text/css' />
 	<!-- FlexSlider css -->
-    <link rel="stylesheet" href="{% static 'css/flexslider.css' %}" type="text/css" media="screen" />
+    <link rel="stylesheet" href="{% static 'Web/css/flexslider.css' %}" type="text/css" media="screen" />
 	<!-- //FlexSlider css -->
 
-	<link href="{% static 'css/fontawesome-all.css' %}" rel="stylesheet">
+	<link href="{% static 'Web/css/fontawesome-all.css' %}" rel="stylesheet">
 	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
 	<link href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 </head>
@@ -30,7 +31,7 @@
 <body>
 {% block content %}{% endblock %}
 
-{% include 'includes/footer.html' %}
+{% include 'Web/includes/footer.html' %}
         <!-- bootstrap-modal-pop-up -->
 <div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
 	<div class="modal-dialog" role="document">
@@ -40,7 +41,7 @@
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 			</div>
 			<div class="modal-body">
-				<img src="{% static 'images/m1.jpg' %}" alt=" " class="img-responsive img-fluid" />
+				<img src="{% static 'Web/images/m1.jpg' %}" alt=" " class="img-responsive img-fluid" />
 				<p>Ut enim ad minima veniam, quis nostrum
 					exercitationem ullam corporis suscipit laboriosam,
 					nisi ut aliquid ex ea commodi consequatur? Quis autem
@@ -56,11 +57,11 @@
 <!-- //bootstrap-modal-pop-up -->
 
 <!-- js -->
-	<script type="text/javascript" src="{% static 'js/jquery-2.2.3.min.js' %}"></script>
-	<script type="text/javascript" src="{% static 'js/bootstrap.js' %}"></script> <!-- Necessary-JavaScript-File-For-Bootstrap -->
+	<script type="text/javascript" src="{% static 'Web/js/jquery-2.2.3.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'Web/js/bootstrap.js' %}"></script> <!-- Necessary-JavaScript-File-For-Bootstrap -->
 	<!-- //js -->
 <!-- Flex slider-script -->
-	<script defer src="{% static 'js/jquery.flexslider.js' %}"></script>
+	<script defer src="{% static 'Web/js/jquery.flexslider.js' %}"></script>
 		<script type="text/javascript">
 
 		$(window).load(function(){
@@ -74,8 +75,8 @@
 	  </script>
 	<!-- //Flex slider-script -->
     <!-- Calendar -->
-    <link rel="stylesheet" href="{% static 'css/jquery-ui.css' %}" />
-    <script src="{% static 'js/jquery-ui.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'Web/css/jquery-ui.css' %}" />
+    <script src="{% static 'Web/js/jquery-ui.js' %}"></script>
     <script>
         $(function() {
             $( "#datepicker" ).datepicker();
@@ -84,8 +85,8 @@
     <!-- //Calendar -->
 
 <!-- start-smooth-scrolling -->
-	<script src="{% static 'js/move-top.js' %}"></script>
-	<script src="{% static 'js/easing.js' %}"></script>
+	<script src="{% static 'Web/js/move-top.js' %}"></script>
+	<script src="{% static 'Web/js/easing.js' %}"></script>
 	<script>
 		jQuery(document).ready(function ($) {
 			$(".scroll").click(function (event) {
@@ -121,7 +122,7 @@
 
 
 	<!-- smooth scrolling js -->
-	<script src="{% static 'js/SmoothScroll.min.js' %}"></script>
+	<script src="{% static 'Web/js/SmoothScroll.min.js' %}"></script>
 	<!-- //smooth scrolling js -->
  </body>
 </html>

@@ -1,31 +1,94 @@
-from django.shortcuts import render_to_response, render
+from django.shortcuts import render
 
-# Create your views here.
-
-
-def index(request):
-    return render_to_response('index.html')
+from .models import Site
 
 
-def about(request):
-    return render_to_response('about.html')
+def index_view(request):
+    details = Site.objects.all()
+
+    context = {
+        "details": details,
+    }
+
+    return render(request, "Web/index.html", context)
 
 
-def services(request):
-    return render_to_response('services.html')
+def about_view(request):
+    details = Site.objects.all()
+
+    context = {
+        "details": details,
+    }
+
+    return render(request, "Web/about.html", context)
 
 
-def rental(request):
-    return render('car_rental.html')
+def services_view(request):
+    details = Site.objects.all()
+
+    context = {
+        "details": details,
+    }
+
+    return render(request, "Web/services.html", context)
 
 
-def contact(request):
-    return render_to_response('contact.html')
+def rental_view(request):
+    details = Site.objects.all()
+
+    context = {
+        "details": details,
+    }
+
+    return render(request, "Web/car_rental.html", context)
 
 
-def gallery(request):
-    return render_to_response('gallery.html')
+def contact_view(request):
+    details = Site.objects.all()
+
+    context = {
+        "details": details,
+    }
+
+    return render(request, "Web/contact.html", context)
 
 
-def blog(request):
-    return render_to_response('blog.html')
+def gallery_view(request):
+    details = Site.objects.all()
+
+    context = {
+        "details": details,
+    }
+
+    return render(request, "Web/gallery.html", context)
+
+
+def blog_view(request):
+    details = Site.objects.all()
+
+    context = {
+        "details": details,
+    }
+
+    return render(request, "Web/blog.html", context)
+
+
+def topography_view(request):
+    details = Site.objects.all()
+
+    context = {
+        "details": details,
+    }
+
+    return render(request, "Web/typography.html", context)
+
+
+def projects_view(request):
+    details = Site.objects.all()
+
+    context = {
+        "details": details,
+    }
+
+    return render(request, "Web/projects.html", context)
+

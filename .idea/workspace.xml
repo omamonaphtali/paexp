@@ -2,15 +2,105 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27893f6a-7947-4826-bc61-f432de1a6850" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/web/templates/blog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/templates/car_rental.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/templates/gallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/includes/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/includes/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/includes/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/views.py" afterDir="false" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/css/bootstrap.css" afterPath="$PROJECT_DIR$/web/static/Web/css/bootstrap.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/css/flexslider.css" afterPath="$PROJECT_DIR$/web/static/Web/css/flexslider.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/css/fontawesome-all.css" afterPath="$PROJECT_DIR$/web/static/Web/css/fontawesome-all.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/css/jquery-ui.css" afterPath="$PROJECT_DIR$/web/static/Web/css/jquery-ui.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/css/owl.carousel.css" afterPath="$PROJECT_DIR$/web/static/Web/css/owl.carousel.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/css/owl.theme.css" afterPath="$PROJECT_DIR$/web/static/Web/css/owl.theme.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/css/smoothbox.css" afterPath="$PROJECT_DIR$/web/static/Web/css/smoothbox.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/css/style.css" afterPath="$PROJECT_DIR$/web/static/Web/css/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/ab1.jpg" afterPath="$PROJECT_DIR$/web/static/Web/images/ab1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/ab2.jpg" afterPath="$PROJECT_DIR$/web/static/Web/images/ab2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/ban222.jpg" afterPath="$PROJECT_DIR$/web/static/Web/images/ban222.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/ban333.jpg" afterPath="$PROJECT_DIR$/web/static/Web/images/ban333.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/ban444.jpg" afterPath="$PROJECT_DIR$/web/static/Web/images/ban444.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/ban555.jpg" afterPath="$PROJECT_DIR$/web/static/Web/images/ban555.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/cl1.jpg" afterPath="$PROJECT_DIR$/web/static/Web/images/cl1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/cl2.jpg" afterPath="$PROJECT_DIR$/web/static/Web/images/cl2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/cl3.jpg" afterPath="$PROJECT_DIR$/web/static/Web/images/cl3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/cl4.jpg" afterPath="$PROJECT_DIR$/web/static/Web/images/cl4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/f22.jpg" afterPath="$PROJECT_DIR$/web/static/Web/images/f22.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/g17.jpg" afterPath="$PROJECT_DIR$/web/static/Web/images/g17.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/gal1.jpg" afterPath="$PROJECT_DIR$/web/static/Web/images/gal1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/gal2.jpg" afterPath="$PROJECT_DIR$/web/static/Web/images/gal2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/gal3.jpg" afterPath="$PROJECT_DIR$/web/static/Web/images/gal3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/gal4.jpg" afterPath="$PROJECT_DIR$/web/static/Web/images/gal4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/gal5.jpg" afterPath="$PROJECT_DIR$/web/static/Web/images/gal5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/gal6.jpg" afterPath="$PROJECT_DIR$/web/static/Web/images/gal6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/gal7.jpg" afterPath="$PROJECT_DIR$/web/static/Web/images/gal7.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/gal8.jpg" afterPath="$PROJECT_DIR$/web/static/Web/images/gal8.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/gal9.jpg" afterPath="$PROJECT_DIR$/web/static/Web/images/gal9.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/m1.jpg" afterPath="$PROJECT_DIR$/web/static/Web/images/m1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/n1.jpg" afterPath="$PROJECT_DIR$/web/static/Web/images/n1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/quotes.png" afterPath="$PROJECT_DIR$/web/static/Web/images/quotes.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/r1.jpg" afterPath="$PROJECT_DIR$/web/static/Web/images/r1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/r2.jpg" afterPath="$PROJECT_DIR$/web/static/Web/images/r2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/s1.jpg" afterPath="$PROJECT_DIR$/web/static/Web/images/s1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/s2.jpg" afterPath="$PROJECT_DIR$/web/static/Web/images/s2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/s3.jpg" afterPath="$PROJECT_DIR$/web/static/Web/images/s3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/s333.jpg" afterPath="$PROJECT_DIR$/web/static/Web/images/s333.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/s4.jpg" afterPath="$PROJECT_DIR$/web/static/Web/images/s4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/s5.jpg" afterPath="$PROJECT_DIR$/web/static/Web/images/s5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/s6.jpg" afterPath="$PROJECT_DIR$/web/static/Web/images/s6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/team1.jpg" afterPath="$PROJECT_DIR$/web/static/Web/images/team1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/team2.jpg" afterPath="$PROJECT_DIR$/web/static/Web/images/team2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/team3.jpg" afterPath="$PROJECT_DIR$/web/static/Web/images/team3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/team4.jpg" afterPath="$PROJECT_DIR$/web/static/Web/images/team4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/team5.jpg" afterPath="$PROJECT_DIR$/web/static/Web/images/team5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/team6.jpg" afterPath="$PROJECT_DIR$/web/static/Web/images/team6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/top.png" afterPath="$PROJECT_DIR$/web/static/Web/images/top.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/images/typo.jpg" afterPath="$PROJECT_DIR$/web/static/Web/images/typo.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/js/SmoothScroll.min.js" afterPath="$PROJECT_DIR$/web/static/Web/js/SmoothScroll.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/js/bootstrap.js" afterPath="$PROJECT_DIR$/web/static/Web/js/bootstrap.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/js/easing.js" afterPath="$PROJECT_DIR$/web/static/Web/js/easing.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/js/jquery-2.2.3.min.js" afterPath="$PROJECT_DIR$/web/static/Web/js/jquery-2.2.3.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/js/jquery-ui.js" afterPath="$PROJECT_DIR$/web/static/Web/js/jquery-ui.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/js/jquery.flexslider.js" afterPath="$PROJECT_DIR$/web/static/Web/js/jquery.flexslider.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/js/jquery.wmuSlider.js" afterPath="$PROJECT_DIR$/web/static/Web/js/jquery.wmuSlider.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/js/move-top.js" afterPath="$PROJECT_DIR$/web/static/Web/js/move-top.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/js/numscroller-1.0.js" afterPath="$PROJECT_DIR$/web/static/Web/js/numscroller-1.0.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/js/smoothbox.jquery2.js" afterPath="$PROJECT_DIR$/web/static/Web/js/smoothbox.jquery2.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/webfonts/fa-brands-400.eot" afterPath="$PROJECT_DIR$/web/static/Web/webfonts/fa-brands-400.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/webfonts/fa-brands-400.svg" afterPath="$PROJECT_DIR$/web/static/Web/webfonts/fa-brands-400.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/webfonts/fa-brands-400.ttf" afterPath="$PROJECT_DIR$/web/static/Web/webfonts/fa-brands-400.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/webfonts/fa-brands-400.woff" afterPath="$PROJECT_DIR$/web/static/Web/webfonts/fa-brands-400.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/webfonts/fa-brands-400.woff2" afterPath="$PROJECT_DIR$/web/static/Web/webfonts/fa-brands-400.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/webfonts/fa-regular-400.eot" afterPath="$PROJECT_DIR$/web/static/Web/webfonts/fa-regular-400.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/webfonts/fa-regular-400.svg" afterPath="$PROJECT_DIR$/web/static/Web/webfonts/fa-regular-400.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/webfonts/fa-regular-400.ttf" afterPath="$PROJECT_DIR$/web/static/Web/webfonts/fa-regular-400.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/webfonts/fa-regular-400.woff" afterPath="$PROJECT_DIR$/web/static/Web/webfonts/fa-regular-400.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/webfonts/fa-regular-400.woff2" afterPath="$PROJECT_DIR$/web/static/Web/webfonts/fa-regular-400.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/webfonts/fa-solid-900.eot" afterPath="$PROJECT_DIR$/web/static/Web/webfonts/fa-solid-900.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/webfonts/fa-solid-900.svg" afterPath="$PROJECT_DIR$/web/static/Web/webfonts/fa-solid-900.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/webfonts/fa-solid-900.ttf" afterPath="$PROJECT_DIR$/web/static/Web/webfonts/fa-solid-900.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/webfonts/fa-solid-900.woff" afterPath="$PROJECT_DIR$/web/static/Web/webfonts/fa-solid-900.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/static/webfonts/fa-solid-900.woff2" afterPath="$PROJECT_DIR$/web/static/Web/webfonts/fa-solid-900.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/templates/about.html" afterPath="$PROJECT_DIR$/web/templates/Web/about.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/templates/base_layout.html" afterPath="$PROJECT_DIR$/web/templates/Web/base_layout.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/templates/base_layout_2.html" afterPath="$PROJECT_DIR$/web/templates/Web/base_layout_2.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/templates/blog.html" afterPath="$PROJECT_DIR$/web/templates/Web/blog.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/templates/car_rental.html" afterPath="$PROJECT_DIR$/web/templates/Web/car_rental.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/templates/contact.html" afterPath="$PROJECT_DIR$/web/templates/Web/contact.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/templates/gallery.html" afterPath="$PROJECT_DIR$/web/templates/Web/gallery.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/templates/includes/footer.html" afterPath="$PROJECT_DIR$/web/templates/Web/includes/footer.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/templates/includes/navbar.html" afterPath="$PROJECT_DIR$/web/templates/Web/includes/navbar.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/templates/index.html" afterPath="$PROJECT_DIR$/web/templates/Web/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/templates/projects.html" afterPath="$PROJECT_DIR$/web/templates/Web/projects.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/templates/services.html" afterPath="$PROJECT_DIR$/web/templates/Web/services.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/templates/typography.html" afterPath="$PROJECT_DIR$/web/templates/Web/typography.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/paradise.iml" afterPath="$PROJECT_DIR$/.idea/paradise.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paradise/settings.py" afterPath="$PROJECT_DIR$/paradise/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paradise/urls.py" afterPath="$PROJECT_DIR$/paradise/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin.py" afterPath="$PROJECT_DIR$/web/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/models.py" afterPath="$PROJECT_DIR$/web/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/urls.py" afterPath="$PROJECT_DIR$/web/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/views.py" afterPath="$PROJECT_DIR$/web/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,24 +109,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/paradise/settings.py">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="40" column="10" lean-forward="true" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/paradise/wsgi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="612">
+              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding>
-                <element signature="e#224#233#0" expanded="true" />
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -45,64 +129,31 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+            <state relative-caret-position="414">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
-                <element signature="e#632#664#0" expanded="true" />
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/views.py">
+      <file leaf-file-name="navbar.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/templates/Web/includes/navbar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+            <state relative-caret-position="360">
+              <caret line="31" column="54" lean-forward="false" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/templates/index.html">
+      <file leaf-file-name="footer.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/templates/Web/includes/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
-              <folding>
-                <element signature="e#1264#4029#0#HTML" />
-                <element signature="e#4075#5744#0#HTML" />
-                <element signature="e#8189#17459#0#HTML" />
-                <element signature="e#17518#18156#0#HTML" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="car_rental.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/templates/car_rental.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
-              <folding>
-                <element signature="n#div#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base_layout_2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/templates/base_layout_2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-              <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#script#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#script#5;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#script#8;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#script#9;n#body#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="-778">
+              <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -122,6 +173,11 @@
       <find>.css&quot;</find>
       <find>.jpg&quot;</find>
       <find>src=&quot;js</find>
+      <find>.html</find>
+      <find>.ht</find>
+      <find>.htm</find>
+      <find>home</find>
+      <find>url</find>
     </findStrings>
     <replaceStrings>
       <replace>href=&quot;static 'css</replace>
@@ -136,9 +192,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/Procfile" />
-        <option value="$PROJECT_DIR$/paradise/urls.py" />
         <option value="$PROJECT_DIR$/web/static/css/smoothbox.css" />
         <option value="$PROJECT_DIR$/web/static/css/owl.theme.css" />
         <option value="$PROJECT_DIR$/web/static/css/owl.carousel.css" />
@@ -151,14 +205,29 @@
         <option value="$PROJECT_DIR$/web/templates/base_layout_2.html" />
         <option value="$PROJECT_DIR$/web/templates/about.html" />
         <option value="$PROJECT_DIR$/web/templates/includes/car_rental.html" />
-        <option value="$PROJECT_DIR$/web/views.py" />
         <option value="$PROJECT_DIR$/web/templates/index.html" />
-        <option value="$PROJECT_DIR$/web/urls.py" />
         <option value="$PROJECT_DIR$/web/templates/includes/navbar.html" />
         <option value="$PROJECT_DIR$/web/templates/includes/footer.html" />
         <option value="$PROJECT_DIR$/web/templates/car_rental.html" />
         <option value="$PROJECT_DIR$/paradise/wsgi.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/web/models.py" />
+        <option value="$PROJECT_DIR$/web/templates/Web/base_layout.html" />
+        <option value="$PROJECT_DIR$/web/templates/Web/base_layout_2.html" />
+        <option value="$PROJECT_DIR$/web/templates/Web/about.html" />
+        <option value="$PROJECT_DIR$/web/templates/Web/contact.html" />
+        <option value="$PROJECT_DIR$/web/templates/Web/projects.html" />
+        <option value="$PROJECT_DIR$/web/templates/Web/services.html" />
+        <option value="$PROJECT_DIR$/web/templates/Web/typography.html" />
         <option value="$PROJECT_DIR$/paradise/settings.py" />
+        <option value="$PROJECT_DIR$/web/admin.py" />
+        <option value="$PROJECT_DIR$/web/templates/Web/index.html" />
+        <option value="$PROJECT_DIR$/web/templates/Web/car_rental.html" />
+        <option value="$PROJECT_DIR$/web/views.py" />
+        <option value="$PROJECT_DIR$/web/urls.py" />
+        <option value="$PROJECT_DIR$/paradise/urls.py" />
+        <option value="$PROJECT_DIR$/web/templates/Web/includes/navbar.html" />
+        <option value="$PROJECT_DIR$/web/templates/Web/includes/footer.html" />
       </list>
     </option>
   </component>
@@ -171,48 +240,74 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="46" />
-    <option name="y" value="-4" />
-    <option name="width" value="1321" />
-    <option name="height" value="773" />
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="960" />
+    <option name="y" value="27" />
+    <option name="width" value="960" />
+    <option name="height" value="1053" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="paradise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="paexp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="paexp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="paexp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="paexp" type="462c0819:PsiDirectoryNode" />
               <item name="paradise" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="paradise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="paradise" type="462c0819:PsiDirectoryNode" />
+              <item name="paexp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="paexp" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="paradise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="paradise" type="462c0819:PsiDirectoryNode" />
+              <item name="paexp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="paexp" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="paradise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="paradise" type="462c0819:PsiDirectoryNode" />
+              <item name="paexp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="paexp" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="Web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="paexp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="paexp" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="Web" type="462c0819:PsiDirectoryNode" />
               <item name="includes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -221,9 +316,12 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dial4" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/static/Web" />
+      <recent name="$PROJECT_DIR$/web/templates/Web" />
       <recent name="$PROJECT_DIR$/web/templates" />
       <recent name="$PROJECT_DIR$/web/templates/includes" />
     </key>
@@ -242,7 +340,6 @@
   </component>
   <component name="RunManager">
     <configuration name="paradise" type="Python.DjangoServer" factoryName="Django server">
-      <module name="paradise" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -253,6 +350,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="paradise" />
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8000" />
       <option name="host" value="" />
@@ -263,6 +361,9 @@
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
     </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -278,32 +379,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="46" y="-4" width="1321" height="773" extended-state="6" />
-    <editor active="true" />
+    <frame x="960" y="27" width="960" height="1053" extended-state="4" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3298193" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20015164" />
-      <window_info anchor="right" id="R Packages" order="3" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="R Graphics" order="3" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24451755" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33005464" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,7 +408,141 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/templates/Web/typography.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paradise/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paradise/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="26" column="48" lean-forward="false" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/Web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="61" lean-forward="false" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/Web/car_rental.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/Web/base_layout_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="38" column="30" lean-forward="false" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paradise/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paradise/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="26" column="48" lean-forward="false" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/Web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="61" lean-forward="false" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/Web/car_rental.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/Web/base_layout_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="38" column="30" lean-forward="false" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/paradise/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -323,19 +553,16 @@
     <entry file="file://$PROJECT_DIR$/paradise/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#224#233#0" expanded="true" />
-          </folding>
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
           <folding>
-            <element signature="e#632#664#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -343,229 +570,261 @@
     <entry file="file://$PROJECT_DIR$/web/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+          <caret line="26" column="35" lean-forward="false" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/web/templates/Web/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="e#1264#4029#0#HTML" />
-            <element signature="e#4075#5744#0#HTML" />
-            <element signature="e#8189#17459#0#HTML" />
-            <element signature="e#17518#18156#0#HTML" />
-          </folding>
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="8" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/about.html">
+    <entry file="file://$PROJECT_DIR$/web/templates/Web/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/base_layout_2.html">
+    <entry file="file://$PROJECT_DIR$/web/templates/Web/base_layout_2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="35" column="30" lean-forward="true" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#5227#5234#1#HTML" expanded="true" />
-            <element signature="n#script#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#script#5;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#script#8;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#script#9;n#body#0;n#html#0;n#!!top" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/includes/navbar.html">
+    <entry file="file://$PROJECT_DIR$/web/templates/Web/includes/navbar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <caret line="12" column="48" lean-forward="false" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        <state relative-caret-position="0">
+          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/css/smoothbox.css">
+    <entry file="file://$PROJECT_DIR$/web/static/Web/css/smoothbox.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="104" column="13" selection-start-line="104" selection-start-column="13" selection-end-line="104" selection-end-column="13" />
+          <caret line="104" column="13" lean-forward="false" selection-start-line="104" selection-start-column="13" selection-end-line="104" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/css/owl.theme.css">
+    <entry file="file://$PROJECT_DIR$/web/static/Web/css/owl.theme.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="524">
           <caret line="78" column="1" lean-forward="true" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/css/owl.carousel.css">
+    <entry file="file://$PROJECT_DIR$/web/static/Web/css/owl.carousel.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
           <caret line="58" column="1" lean-forward="true" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/css/jquery-ui.css">
+    <entry file="file://$PROJECT_DIR$/web/static/Web/css/jquery-ui.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="89" column="12" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="12" />
+          <caret line="89" column="12" lean-forward="false" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/css/style.css">
+    <entry file="file://$PROJECT_DIR$/web/static/Web/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="412" column="19" selection-start-line="412" selection-start-column="19" selection-end-line="412" selection-end-column="19" />
+          <caret line="412" column="19" lean-forward="false" selection-start-line="412" selection-start-column="19" selection-end-line="412" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/runtime.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/base_layout.html">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#4456#4463#1#HTML" expanded="true" />
-            <element signature="n#script#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#script#5;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#script#8;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#script#9;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/gallery.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/blog.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
-          <folding>
-            <element signature="e#1264#4029#0#HTML" />
-            <element signature="e#4075#5744#0#HTML" />
-            <element signature="e#8189#17459#0#HTML" />
-            <element signature="e#17518#18156#0#HTML" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paradise/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#632#664#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
-          <folding>
-            <element signature="e#632#664#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/includes/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="57" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/includes/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="9" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/car_rental.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-          <folding>
-            <element signature="n#div#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/base_layout_2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#script#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#script#5;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#script#8;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#script#9;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="true" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/paradise/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="234">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
           <folding>
-            <element signature="e#224#233#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/paradise/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="40" column="10" lean-forward="true" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+        <state relative-caret-position="-1449">
+          <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/Web/base_layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/Web/base_layout_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/Web/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="18" column="61" lean-forward="false" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/Web/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/Web/car_rental.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="35" column="81" lean-forward="false" selection-start-line="35" selection-start-column="81" selection-end-line="35" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/Web/services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="253" column="39" lean-forward="false" selection-start-line="253" selection-start-column="36" selection-end-line="253" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/Web/typography.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="57" column="55" lean-forward="false" selection-start-line="57" selection-start-column="52" selection-end-line="57" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/Web/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="154" column="39" lean-forward="false" selection-start-line="154" selection-start-column="36" selection-end-line="154" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/Web/gallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/Web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/Web/projects.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paradise/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding>
+            <element signature="e#1#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/Web/includes/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="31" column="54" lean-forward="false" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/Web/includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-778">
+          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
