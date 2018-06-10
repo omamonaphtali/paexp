@@ -48,7 +48,7 @@ ROOT_URLCONF = 'paradise.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['web/templates'],
+        'DIRS': ['web/templates/web'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
