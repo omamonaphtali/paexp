@@ -1,5 +1,5 @@
 import os
-import dj_database_url
+# import dj_database_url
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -48,7 +48,7 @@ ROOT_URLCONF = 'paradise.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['web/templates/web'],
+        'DIRS': ['web/templates/Web/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -119,7 +119,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "web/static"),
+    os.path.join(BASE_DIR, "web/static/Web/"),
 ]
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')

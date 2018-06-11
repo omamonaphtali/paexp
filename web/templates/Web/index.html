@@ -4,7 +4,7 @@
 	<!--Header-->
 	<header>
         <div class="agile-banner_nav">
-            {% include '/includes/navbar.html' %}
+            {% include 'includes/navbar.html' %}
         </div>
     </header>
 	<!--/banner-->
@@ -17,9 +17,9 @@
                             <h1>We help business grow and innovate new Things </h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dignissim lacus, vel
                                 elementum quam. Donec facilisis aliquet sapien.</p>
-                                <a href="{% url 'web:profile' %}">Read More <i
+                                <a href="{% url 'profile' %}">Read More <i
                                         class="fa fa-caret-right" aria-hidden="true"></i></a>
-                                <a href="{% url 'web:contacts' %}">Contact Us <i class="fas fa-caret-right"
+                                <a href="{% url 'contacts' %}">Contact Us <i class="fas fa-caret-right"
                                                                 aria-hidden="true"></i></a>
                         </div>
                     </div>
@@ -82,7 +82,7 @@
     <div class="agile-services-w3 py-5">
             <div class="container py-3 py-md-3">
                <div class="w3-head-all text-center mb-3">
-                <h3>Our Services</h3>
+                    <h3>Our Services</h3>
                 </div>
                 <div class="wthree-agile-sevre-grids row my-4">
                     <div class="col-lg-4  wthree-agile-grid services-align">
@@ -249,7 +249,9 @@
     <!--/subscribe-->
     <div class="subscribe p-5">
         <div class="container">
-            <h3 class="text-center">Get latest deals for new businesss</h3>
+            <div class="w3-head-all text-center mb-3">
+                <h3>Get latest deals for new businesss</h3>
+            </div>
             <form class="input-fields my-3">
             <div class="form-group text-center">
                 <label for="exampleFormControlInput1">Email address</label>

@@ -574,7 +574,7 @@ h3.agileits-title {
 }
 /*-- //stats --*/ 
 /*--/subscribe --*/
-section.subscribe {
+.subscribe {
     background: #00aeef;
 }
 .form-control {
@@ -889,13 +889,12 @@ ul.wmuSliderPagination {
 /*--// clients--*/
 /*--/footer --*/
 .footer {
-    min-height: 400px;
-    background: url(../images/f22.jpg)no-repeat 0px -236px;
+    min-height: 450px;
+    background: url(../images/f22.jpg)no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    -ms-background-size: cover;
 }
 .footer_top_agileits {
 	background: #fff;
