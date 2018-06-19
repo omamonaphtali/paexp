@@ -73,14 +73,15 @@ def blog_view(request):
     return render(request, "Web/blog.html", context)
 
 
-def topography_view(request):
+def booking_view(request):
     details = Site.objects.all()
 
     context = {
+        "title": "booking",
         "details": details,
     }
 
-    return render(request, "Web/typography.html", context)
+    return render(request, "Web/rental/booking.html", context)
 
 
 def projects_view(request):

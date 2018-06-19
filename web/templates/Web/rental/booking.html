@@ -1,0 +1,98 @@
+{% extends 'base_layout.html' %}
+{% load staticfiles %}
+{% block content %}
+    {% block stylesheets %}
+        <link rel="stylesheet" href="{% static 'css/rental.css' %}">
+    {% endblock stylesheets %}
+    <div class="row header">
+        <div class="agile-banner_nav">
+            {% include 'includes/navbar.html' %}
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <h4 class="card-title">Range Rover Sports 2018</h4>
+                    <div class="card-body">
+                        <img class="card-img-top" src="{% static 'images/range2018.jpg' %}" alt="white range rover sports
+                    2018 model">
+                     </div>
+                </div>
+            </div><!-- //left -->
+            <div class="col-md-6 right">
+                <label>Driver name</label>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" id="firstName" placeholder="First Name"/>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" id="lastName" placeholder="Last Name"/>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="userEmail">Email address</label>
+                    <input type="email" class="form-control" id="userEmail" placeholder="Enter your email address"/>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="userPhone">Phone number</label>
+                        <input type="tel" class="form-control" id="userPhone" placeholder="Enter phone number"/>
+                    </div>
+                    <div class="row">
+                        <label class="col-md-12">Pick Date</label> <br/>
+                        <div class="col-md-6">
+                            <input class="datepicker" type="text" name="date" placeholder="From mm/dd/yyyy" required=""/>
+                        </div>
+                        <div class="col-md-6">
+                            <input class="datepicker" type="text" name="date" placeholder="To mm/dd/yyyy" required=""/>
+                        </div>
+                    </div>
+                </div><!-- //form -->
+                <div>
+                    <h6>Total</h6>
+                    <p>Kshs. 24,000 for 3 days</p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#booked">
+                        PAY NOW
+                    </button>
+                </div>
+            </div><!-- //right -->
+        </div><!-- //container -->
+    </div>
+
+    <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="booked" tabindex="-1" role="dialog" aria-labelledby="booked" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="booked">
+                    Congratulations! You have successfully booked a car<br/>
+                    <small><a href="#">Download receipt now</a></small>
+                </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="card">
+                    <h4 class="card-title">Range Rover Sports 2018</h4>
+                    <div class="card-body">
+                        <img class="card-img-top" src="{% static 'images/range2018.jpg' %}" alt="white range rover sports
+                    2018 model">
+                        <p class="text-center">It's yours for 3 days</p>
+                     </div>
+                    <div class="card-footer">
+                        <p>The car will wait for you at the specified location</p>
+                        <p>19 June 2018 at Noon</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Thank you</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}

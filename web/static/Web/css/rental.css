@@ -1,0 +1,21 @@
+.header{
+    min-height: 150px;
+    background: url("../images/ban222.jpg") fixed center center;
+    background-size: cover;
+}
+
+.right{
+    padding: 20px 30px;
+}
+.form-group label{
+    color: #000000!important;
+}
+.form-row{
+    margin-bottom: 20px;
+}
+.form-row input{
+    width: 100%;
+}
+.btn{
+    float: right;
+}
