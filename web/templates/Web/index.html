@@ -1,10 +1,10 @@
-{% extends 'base_layout.html' %}
+{% extends 'Web/base_layout.html' %}
 {% load staticfiles %}
 {% block content %}
 	<!--Header-->
 	<header>
         <div class="agile-banner_nav">
-            {% include 'includes/navbar.html' %}
+            {% include 'Web/includes/navbar.html' %}
         </div>
     </header>
 	<!--/banner-->
@@ -16,9 +16,9 @@
                         <div class="carousel-caption">
                             <h1>The full spectrum for all your expeditions </h1>
                             <p>Providing quality services to both Domestic and international tourists</p>
-                                <a href="{% url 'profile' %}">Read More <i
+                                <a href="{% url 'web:profile' %}">Read More <i
                                         class="fa fa-caret-right" aria-hidden="true"></i></a>
-                                <a href="{% url 'contacts' %}">Contact Us <i class="fas fa-caret-right"
+                                <a href="{% url 'web:contacts' %}">Contact Us <i class="fas fa-caret-right"
                                                                 aria-hidden="true"></i></a>
                         </div>
                     </div>

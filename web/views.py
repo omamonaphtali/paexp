@@ -77,7 +77,6 @@ def booking_view(request):
     details = Site.objects.all()
 
     context = {
-        "title": "booking",
         "details": details,
     }
 

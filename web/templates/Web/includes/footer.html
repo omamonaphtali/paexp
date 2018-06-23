@@ -1,26 +1,27 @@
     <!--/footer-->
+    {% load staticfiles %}
     <section class="footer py-3">
         <div class="container">
             <div class="row py-4 foot-resp">
                 <div class="col-lg-8 bottom-nav-main">
                     <ul>
                         <li>
-                            <a href="/home/">Home</a>
+                            <a href="{% url 'web:home' %}">Home</a>
                         </li>
                         <li>
-                            <a href="/profile/">Profile</a>
+                            <a href="{% url 'web:profile' %}">Profile</a>
                         </li>
 {#                        <li>#}
 {#                            <a href="/services/">Services</a>#}
 {#                        </li>#}
                         <li>
-                            <a href="/gallery/">Gallery</a>
+                            <a href="{% url 'web:gallery' %}">Gallery</a>
                         </li>
                         <li>
-                            <a href="/blog/">Blog</a>
+                            <a href="{% url 'web:blog' %}">Blog</a>
                         </li>
                         <li>
-                            <a href="/contacts/">Contact</a>
+                            <a href="{% url 'web:contacts' %}">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -79,7 +80,7 @@
                             <a href="tel:+254722400064">0722 400 064</a>/
                             <a href="tel:+25420343108">020 343 108</a>
                         </li>
-                        <li><i class="fas fa-globe" aria-hidden="true"></i><a href="www.paradiseafricaexpeditions
+                        <li><i class="fas fa-globe" aria-hidden="true"></i><a href="http://www.paradiseafricaexpeditions
                         .com">www.paradiseafricaexpeditions</a></li>
                     </ul>
                 </div>

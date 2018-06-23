@@ -1,4 +1,4 @@
-{% extends 'base_layout.html' %}
+{% extends 'Web/base_layout.html' %}
 {% load staticfiles %}
 {% block content %}
     {% block stylesheets %}
@@ -6,7 +6,7 @@
     {% endblock stylesheets %}
     <div class="row header">
         <div class="agile-banner_nav">
-            {% include 'includes/navbar.html' %}
+            {% include 'Web/includes/navbar.html' %}
         </div>
     </div>
     <div class="row">
@@ -16,8 +16,8 @@
                 <h6 class="card-subtitle mb-2 text-muted">Kshs 8000/day</h6>
                 <img class="card-img-top" src="{% static 'images/range2018.jpg' %}" alt="white range rover sports
             2018 model">
-                <a href="#" class="btn btn-primary">More Info</a>
-                <a href="#" class="btn btn-primary">Book Now</a>
+                <a href="{% url 'web:booking' %}" class="btn btn-primary">More Info</a>
+                <a href="{% url 'web:booking' %}" class="btn btn-primary">Book Now</a>
              </div>
         </div>
         <div class="col-md-4 card">
@@ -26,8 +26,8 @@
                 <h6 class="card-subtitle mb-2 text-muted">Kshs 8000/day</h6>
                 <img class="card-img-top" src="{% static 'images/range2018.jpg' %}" alt="white range rover sports
             2018 model">
-                <a href="#" class="btn btn-primary">More Info</a>
-                <a href="#" class="btn btn-primary">Book Now</a>
+                <a href="{% url 'web:booking' %}" class="btn btn-primary">More Info</a>
+                <a href="{% url 'web:booking' %}" class="btn btn-primary">Book Now</a>
              </div>
         </div>
         <div class="col-md-4 card">
@@ -36,8 +36,8 @@
                 <h6 class="card-subtitle mb-2 text-muted">Kshs 8000/day</h6>
                 <img class="card-img-top" src="{% static 'images/range2018.jpg' %}" alt="white range rover sports
             2018 model">
-                <a href="#" class="btn btn-primary">More Info</a>
-                <a href="#" class="btn btn-primary">Book Now</a>
+                <a href="{% url 'web:booking' %}" class="btn btn-primary">More Info</a>
+                <a href="{% url 'web:booking' %}" class="btn btn-primary">Book Now</a>
              </div>
         </div>
     </div>
